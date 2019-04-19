@@ -4,11 +4,11 @@
     "debug": false,
     "spCompatible": false,
     "useRetries": true,
-    "skillRetryMs": 30,
-    "skillRetryCount": 1,
-    "pingHistoryMax": 30,
-    "pingSpikesLimit": false,
-    "pingSpikesMin": 100,
+    "skillRetryMs": 300,
+    "skillRetryCount": 5,
+    "pingHistoryMax": 1,
+    "pingSpikesLimit": true,
+    "pingSpikesMin": 1000,
     "pingSpikesMax": 1000,
     "minCombatFPS": 30
 }
